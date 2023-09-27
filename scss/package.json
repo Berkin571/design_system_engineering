@@ -1,0 +1,22 @@
+{
+  "name": "design_system_engineering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint './**/*.scss'",
+    "lint:fix": "npm run lint --fix"
+  },
+  "author": "Berkin Bilgin",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.30",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3",
+    "stylelint-config-sass-guidelines": "^10.0.0"
+  }
+}
