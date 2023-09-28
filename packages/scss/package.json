@@ -1,13 +1,13 @@
 {
-  "name": "design_system_engineering",
+  "name": "@ds.e/scss",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "npm run lint --fix"
   },
+  "files": ["src"],
   "author": "Berkin Bilgin",
   "license": "MIT",
   "dependencies": {

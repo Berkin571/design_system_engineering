@@ -1,0 +1,26 @@
+{
+  "name": "@ds.e/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berkin571/design_system_engineering.git"
+  },
+  "author": "Berkin Bilgin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Berkin571/design_system_engineering/issues"
+  },
+  "homepage": "https://github.com/Berkin571/design_system_engineering#readme",
+  "devDependencies": {
+    "lerna": "^7.3.0"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
